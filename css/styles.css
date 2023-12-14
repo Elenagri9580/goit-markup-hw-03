@@ -77,12 +77,14 @@ img {
 .nav-link {
     color: #2E2F42;
     font-weight: 500;
+    display: block;
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0 24px;
 }
 
 .cont-link {
+    display: block;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -161,7 +163,7 @@ img {
 }
 
 .features-item {
-    width: 264px;
+    width: calc((100% - 24px*3) / 4);
 }
 
 .team {
@@ -187,7 +189,6 @@ img {
 .features-subtitle,
 .team-subtitle,
 .portfolio-subtitle {
-    margin-top: 32px;
     margin-bottom: 8px;
     color: #2E2F42;
     font-size: 20px;
@@ -244,7 +245,6 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .logo-cloud,
